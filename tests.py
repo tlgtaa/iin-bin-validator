@@ -6,7 +6,7 @@ from iin_validation import validate_iin
 @pytest.mark.parametrize(
     "iin, expected",
     [
-        ("930425300460", True),
+        ("990425400461", True),
         ("304212233", False),
         ("112233445566", False),
     ],
